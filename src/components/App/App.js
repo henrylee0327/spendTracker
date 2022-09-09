@@ -1,13 +1,17 @@
 import { hot } from 'react-hot-loader/root'
 import './App.scss';
-import LeftInputGrid from '../LeftInputGrid/LeftInputGrid';
-import CalendarGrid from '../CalendarGrid/CalendarGrid';
+import LeftInput from '../LeftInput/LeftInput';
+import Content from '../Content/Content';
 
 function App() {
   return (
     <div className="App">
-      <LeftInputGrid />
-      <CalendarGrid />
+    <div className="col-left">
+      <LeftInput />
+    </div>
+    <div className="col-main">
+      <Content />
+    </div>
     </div>
   );
 }

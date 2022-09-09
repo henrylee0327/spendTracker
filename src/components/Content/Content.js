@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CalendarGrid = () => {
+const Content = () => {
     return (
         <>
             Hello from CalendarArea
@@ -8,4 +8,4 @@ const CalendarGrid = () => {
     )
 }
 
-export default CalendarGrid
+export default Content

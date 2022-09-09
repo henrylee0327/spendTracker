@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LeftInputGrid = () => {
+const LeftInput = () => {
     return (
         <>
             Hello from LeftInput
@@ -8,4 +8,4 @@ const LeftInputGrid = () => {
     )
 }
 
-export default LeftInputGrid
+export default LeftInput
