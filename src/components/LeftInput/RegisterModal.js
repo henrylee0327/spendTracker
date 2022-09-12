@@ -1,7 +1,7 @@
 import React from 'react'
 import { Modal, Button } from 'react-bootstrap';
 
-const CustomModal = ({label, onClick}) => {
+const RegisterModal = ({label, onClick}) => {
 
     return (
         <Modal show={true}>
@@ -13,4 +13,4 @@ const CustomModal = ({label, onClick}) => {
     )
 }
 
-export default CustomModal
+export default RegisterModal

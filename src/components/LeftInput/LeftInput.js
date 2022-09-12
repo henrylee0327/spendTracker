@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import useSelectedMonthProvider from '../../providers/selected-month/use-selected-month-provider'
 import { Button } from 'react-bootstrap';
-import CustomModal from '../common/CustomModal'
+import RegisterModal from './RegisterModal
 
 const LeftInput = () => {
     const {month, onSelectMonth} = useSelectedMonthProvider()
@@ -16,7 +16,7 @@ const LeftInput = () => {
                 display: 'flex', 
                 justifyContent: 'center'}}>
                     <Button onClick={() => setIsRegisterCardVisible(true)} variant="success" style={{margin: '1rem'}}>Register your card</Button>
-                    {isRegisterCardVisible && <CustomModal label='Close' onClick={() => setIsRegisterCardVisible(false)} />}
+                    {isRegisterCardVisible && <RegisterModal label='Close' onClick={() => setIsRegisterCardVisible(false)} />}
             </div>
         </>
     )
