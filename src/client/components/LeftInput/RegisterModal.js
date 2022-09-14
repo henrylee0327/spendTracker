@@ -20,7 +20,7 @@ const RegisterModal = ({onClose, onSaveCard, newCardInfo, setNewCardInfo}) => {
                 </Form.Group>
             </Form>
             <Button variant="primary" onClick={onSaveCard} style={{marginTop: '1rem'}} >Save</Button>
-            <Button variant="secondary" onClick={onClose} style={{marginTop: '1rem'}} >Close</Button>
+            <Button variant="danger" onClick={onClose} style={{marginTop: '1rem'}} >Close</Button>
         </div>
         </Modal>
     )
