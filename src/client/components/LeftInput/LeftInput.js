@@ -2,14 +2,18 @@ import React, { useState } from 'react'
 import useSelectedMonthProvider from '../../providers/selected-month/use-selected-month-provider'
 import { Button } from 'react-bootstrap';
 import RegisterModal from './RegisterModal'
+import useApi from '../../hooks/useApi';
 
 const LeftInput = () => {
     const { month, onSelectMonth } = useSelectedMonthProvider()
     const [ isRegisterCardModalVisible, setIsRegisterCardModalVisible ] = useState(false)
     const [ newCardInfo, setNewCardInfo ] = useState({ description: "", last4digits: "" })
+    const { api, endpoints } = useApi()
 
     const onSaveCard = (event) => {
-        alert('hello')
+        console.log('api: ', api)
+        console.log('api.get: ', api.get)
+        console.log('endpoints: ', endpoints)    
     }
     return (
         <>
