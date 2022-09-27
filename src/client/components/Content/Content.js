@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Content = () => {
-    return (
-        <>
-            Hello from CalendarArea
-        </>
-    )
-}
+  return <>Hello from CalendarArea</>;
+};
 
-export default Content
+export default Content;

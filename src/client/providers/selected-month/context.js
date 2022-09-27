@@ -1,5 +1,5 @@
 import { createContext } from "react";
 
-const selectedMonthContext = createContext('selectedMonth')
+const selectedMonthContext = createContext("selectedMonth");
 
-export default selectedMonthContext
+export default selectedMonthContext;

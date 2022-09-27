@@ -1,11 +1,11 @@
-import endpoints from '../constants/api_endpoints'
-import axiosApi from '../utils/axiosApi'
+import endpoints from "../constants/api_endpoints";
+import axiosApi from "../utils/axiosApi";
 
 const useApi = () => {
-    return {
-        endpoints,
-        api: axiosApi
-    }
-}
+  return {
+    endpoints,
+    api: axiosApi,
+  };
+};
 
-export default useApi
+export default useApi;
