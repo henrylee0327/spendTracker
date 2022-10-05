@@ -1,7 +1,8 @@
 import axios from "axios";
+import { DEV_DOMAIN } from '../../config/default'
 
 const axiosCreator = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: DEV_DOMAIN,
 });
 const axiosApi = async (method, url, data = {}) => {
   try {

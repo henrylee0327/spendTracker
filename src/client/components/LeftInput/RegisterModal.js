@@ -47,7 +47,7 @@ const RegisterModal = ({
           </Form.Group>
         </Form>
         {isPostingNewCard ? (
-          <Button variant="primary" disabled>
+          <Button variant="primary" style={{ marginTop: "1rem" }} disabled>
             <Spinner
               as="span"
               animation="border"

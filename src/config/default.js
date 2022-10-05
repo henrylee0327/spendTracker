@@ -1,3 +1,3 @@
 module.exports = {
-  DEV_DOMAIN: "http://localhost:8000",
+  DEV_DOMAIN: "http://localhost:8000/api",
 };
